@@ -6,6 +6,8 @@ Item {
     width: 640
     height: 480
 
+    property alias mfText1:text1
+
     Rectangle {
         id: rectangle1
         x: 0
@@ -85,6 +87,16 @@ Item {
             width: 64
             height: 64
             source: "images/Apps-yakuake-icon.png"
+        }
+
+        Text {
+            id: text1
+            x: 490
+            y: 22
+            width: 55
+            height: 30
+            text: qsTr("Text")
+            font.pixelSize: 12
         }
     }
 }

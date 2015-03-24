@@ -9,6 +9,12 @@ ApplicationWindow {
     height: 480
     visible: true
 
+    Timer {
+            interval: 500; running: true; repeat: true
+            onTriggered: mfText1.text = Qt.formatDateTime(new Date(), "dddd\nyyyy-MM-dd\n-MMM-\nhh-mm-ss")
+                                                                  // 星期 年份 月份 号 大月份
+        }
+
     menuBar: MenuBar {
         Menu {
             title: qsTr("&File")
