@@ -91,11 +91,12 @@ Item {
 
         Text {
             id: text1
-            x: 490
-            y: 22
-            width: 55
+            x: 521
+            y: 24
+            width: 76
             height: 30
             text: qsTr("Text")
+            horizontalAlignment: Text.AlignHCenter
             font.pixelSize: 12
         }
     }
