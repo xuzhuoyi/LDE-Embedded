@@ -3,5 +3,11 @@
         <file>main.qml</file>
         <file>MainForm.ui.qml</file>
         <file>images/Apps-accessories-calculator-icon.png</file>
+        <file>images/Apps-yakuake-icon.png</file>
+        <file>images/Apps-scribus-icon.png</file>
+        <file>images/Apps-preferences-web-browser-shortcuts-icon.png</file>
+        <file>images/Actions-go-bottom-icon.png</file>
+        <file>images/Apps-system-file-manager-icon.png</file>
+        <file>images/Apps-esd-icon.png</file>
     </qresource>
 </RCC>

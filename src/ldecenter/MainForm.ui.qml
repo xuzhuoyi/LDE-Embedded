@@ -26,11 +26,65 @@ Item {
 
         Image {
             id: image1
-            x: 30
-            y: 375
+            x: 41
+            y: 358
             width: 64
             height: 64
             source: "images/Apps-accessories-calculator-icon.png"
+        }
+
+        Image {
+            id: image2
+            x: 119
+            y: 358
+            width: 64
+            height: 64
+            source: "images/Apps-esd-icon.png"
+        }
+
+        Image {
+            id: image3
+            x: 196
+            y: 358
+            width: 64
+            height: 64
+            source: "images/Apps-system-file-manager-icon.png"
+        }
+
+        Image {
+            id: image4
+            x: 275
+            y: 358
+            width: 64
+            height: 64
+            source: "images/Actions-go-bottom-icon.png"
+        }
+
+        Image {
+            id: image5
+            x: 356
+            y: 358
+            width: 64
+            height: 64
+            source: "images/Apps-preferences-web-browser-shortcuts-icon.png"
+        }
+
+        Image {
+            id: image6
+            x: 438
+            y: 358
+            width: 64
+            height: 64
+            source: "images/Apps-scribus-icon.png"
+        }
+
+        Image {
+            id: image7
+            x: 521
+            y: 358
+            width: 64
+            height: 64
+            source: "images/Apps-yakuake-icon.png"
         }
     }
 }
