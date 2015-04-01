@@ -31,6 +31,7 @@ Item {
             height: 18
             color: "#ffffff"
             text: qsTr("LDE-Emb")
+            horizontalAlignment: Text.AlignHCenter
             textFormat: Text.AutoText
             font.pixelSize: 15
         }
@@ -54,6 +55,84 @@ Item {
             height: 15
             color: "#ffffff"
             text: qsTr("Beta")
+            font.pixelSize: 14
+        }
+
+        Text {
+            id: text4
+            x: 24
+            y: 125
+            color: "#ffffff"
+            text: qsTr("DHT-11 传感器数据")
+            font.pixelSize: 14
+        }
+
+        Text {
+            id: text5
+            x: 53
+            y: 161
+            color: "#20be17"
+            text: qsTr("19")
+            font.bold: true
+            font.pixelSize: 42
+        }
+
+        Text {
+            id: text6
+            x: 115
+            y: 161
+            color: "#ffffff"
+            text: qsTr("温度")
+            font.bold: true
+            font.pixelSize: 24
+        }
+
+        Text {
+            id: text7
+            x: 115
+            y: 200
+            color: "#ffffff"
+            text: qsTr("摄氏度")
+            font.pixelSize: 12
+        }
+
+        Text {
+            id: text8
+            x: 189
+            y: 161
+            color: "#20be17"
+            text: qsTr("45")
+            font.bold: true
+            font.pixelSize: 42
+        }
+
+        Text {
+            id: text9
+            x: 249
+            y: 161
+            color: "#ffffff"
+            text: qsTr("湿度")
+            font.bold: true
+            font.pixelSize: 24
+        }
+
+        Text {
+            id: text10
+            x: 249
+            y: 200
+            color: "#ffffff"
+            text: qsTr("%")
+            font.pixelSize: 12
+        }
+
+        Text {
+            id: text11
+            x: 24
+            y: 232
+            width: 132
+            height: 17
+            color: "#ffffff"
+            text: qsTr("DS18B20 传感器数据")
             font.pixelSize: 14
         }
     }
