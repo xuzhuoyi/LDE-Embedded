@@ -19,7 +19,7 @@ QString TmCore::getdata()
     QFile f("tmdata");
     if(!f.open(QIODevice::ReadOnly | QIODevice::Text))
     {
-        std::cout << "Open failed." << endl;
+       // std::cout << "Open failed." << endl;
         return "N/A N/A";
     }
 
@@ -44,16 +44,6 @@ QString TmCore::gethumi(QString str)
     return strlist.at(1);
 }
 
-QString TmCore::gette()
-{
-    return gettemp(getdata());
-}
-
-QString TmCore::gethu()
-{
-    return gethumi(getdata());
-}
-
 QString TmCore::temp() const
 {
     return qs_temp;
@@ -62,6 +52,16 @@ QString TmCore::temp() const
 void TmCore::setTemp()
 {
     qs_temp = gettemp(getdata());
+}
+
+QString TmCore::humi() const
+{
+    return qs_humi;
+}
+
+void TmCore::setHumi()
+{
+    qs_humi = gethumi(getdata());
 }
 
 

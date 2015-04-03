@@ -5,6 +5,7 @@ import QtQuick.Layouts 1.1
 Item {
 
     property alias t5:text5
+    property alias t8: text8
 
     width: 640
     height: 480
@@ -72,10 +73,13 @@ Item {
 
         Text {
             id: text5
-            x: 53
+            x: 45
             y: 161
+            width: 60
+            height: 56
             color: "#20be17"
             text: qsTr("19")
+            horizontalAlignment: Text.AlignRight
             font.bold: true
             font.pixelSize: 42
         }
@@ -101,10 +105,13 @@ Item {
 
         Text {
             id: text8
-            x: 189
+            x: 179
             y: 161
+            width: 60
+            height: 56
             color: "#20be17"
             text: qsTr("45")
+            horizontalAlignment: Text.AlignRight
             font.bold: true
             font.pixelSize: 42
         }

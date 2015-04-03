@@ -50,7 +50,9 @@ ApplicationWindow {
         repeat: false;
         onTriggered: {
             tmMain.setTemp();
+            tmMain.setHumi();
             mainForm.t5.text = tmMain.temp;
+            mainForm.t8.text = tmMain.humi;
         }
     }
 }
