@@ -3,6 +3,9 @@ import QtQuick.Controls 1.3
 import QtQuick.Layouts 1.1
 
 Item {
+
+    property alias t5:text5
+
     width: 640
     height: 480
 

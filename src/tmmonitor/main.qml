@@ -48,7 +48,7 @@ ApplicationWindow {
         running: true;
         repeat: false;
         onTriggered: {
-            TmCore.gettemp(TmCore.getdata());
+            MainForm.t5.text = TmCore.gettemp(TmCore.getdata());
         }
     }
 }
