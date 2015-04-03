@@ -2,6 +2,7 @@
 #include <QFile>
 #include <QTextStream>
 #include <QStringList>
+#include <iostream>
 
 TmCore::TmCore(QObject *parent) : QObject(parent)
 {
@@ -15,11 +16,11 @@ TmCore::~TmCore()
 
 QString TmCore::getdata()
 {
-    QFile f("test.txt");
+    QFile f("tmdata");
     if(!f.open(QIODevice::ReadOnly | QIODevice::Text))
     {
-        cout << "Open failed." << endl;
-        return -1;
+        std::cout << "Open failed." << endl;
+        return "N/A N/A";
     }
 
     QTextStream txtInput(&f);
@@ -34,13 +35,33 @@ QString TmCore::getdata()
 QString TmCore::gettemp(QString str)
 {
     QStringList strlist=str.split(" ");
-    return str.at(0);
+    return strlist.at(0);
 }
 
 QString TmCore::gethumi(QString str)
 {
     QStringList strlist=str.split(" ");
-    return str.at(1);
+    return strlist.at(1);
+}
+
+QString TmCore::gette()
+{
+    return gettemp(getdata());
+}
+
+QString TmCore::gethu()
+{
+    return gethumi(getdata());
+}
+
+QString TmCore::temp() const
+{
+    return qs_temp;
+}
+
+void TmCore::setTemp()
+{
+    qs_temp = gettemp(getdata());
 }
 
 

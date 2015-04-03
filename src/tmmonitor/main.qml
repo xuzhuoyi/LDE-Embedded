@@ -25,6 +25,7 @@ ApplicationWindow {
     }
 
     MainForm {
+        id:mainForm
         anchors.fill: parent
     }
 
@@ -48,7 +49,8 @@ ApplicationWindow {
         running: true;
         repeat: false;
         onTriggered: {
-            MainForm.t5.text = TmCore.gettemp(TmCore.getdata());
+            tmMain.setTemp();
+            mainForm.t5.text = tmMain.temp;
         }
     }
 }

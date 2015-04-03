@@ -1,5 +1,6 @@
 #include <QApplication>
 #include <QQmlApplicationEngine>
+#include <QtQml>
 #include "core/tmcore.h"
 
 int main(int argc, char *argv[])
