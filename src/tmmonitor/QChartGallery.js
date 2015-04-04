@@ -16,6 +16,8 @@
 // Line Chart Data Sample
 // /////////////////////////////////////////////////////////////////
 
+var CData = [0,0,0,0,0,0,0]
+
 var ChartLineData = {
       labels: ["January","February","March","April","May","June","July"],
     datasets: [{
@@ -23,7 +25,8 @@ var ChartLineData = {
              strokeColor: "rgba(220,220,220,1)",
               pointColor: "rgba(220,220,220,1)",
         pointStrokeColor: "#ffffff",
-                    data: [65,59,90,81,56,55,40]
+                       data: CData
+                    //data: [65,59,90,81,56,55,40]
     }, {
                fillColor: "rgba(151,187,205,0.5)",
              strokeColor: "rgba(151,187,205,1)",
@@ -131,17 +134,3 @@ var ChartBarData = {
     }]
 }
 
-function GetHeader(src) {
-//权限只读(只读=1，只写=2 ，追加=8 等权限)
-var ForReading=1;
-var fso=new ActiveXObject("Scripting.FileSystemObject");
-var f=new fso.OpenTextFile(src,ForReading);
-return(new f.ReadAll());
-}
-
-function GetData() {
-    var arr=new GetHeader("tmdata").split("\r\n");
-    for(var i=0;i<arr.length;i++){
-    alert("第"+(i+1)+"行数据为:"+arr[i]);
-    }
-}

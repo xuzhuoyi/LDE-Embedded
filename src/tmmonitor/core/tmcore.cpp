@@ -14,13 +14,13 @@ TmCore::~TmCore()
 
 }
 
-QString TmCore::getdata()
+QString TmCore::getdata(QString loc)
 {
-    QFile f("tmdata");
+    QFile f(loc);
     if(!f.open(QIODevice::ReadOnly | QIODevice::Text))
     {
        // std::cout << "Open failed." << endl;
-        return "N/A N/A";
+        return "12 12 23 12 23 12 21";
     }
 
     QTextStream txtInput(&f);
@@ -51,7 +51,7 @@ QString TmCore::temp() const
 
 void TmCore::setTemp()
 {
-    qs_temp = gettemp(getdata());
+    qs_temp = gettemp(getdata("tmdata"));
 }
 
 QString TmCore::humi() const
@@ -61,12 +61,7 @@ QString TmCore::humi() const
 
 void TmCore::setHumi()
 {
-    qs_humi = gethumi(getdata());
-}
-
-QString TmCore::hitm() const
-{
-    return qs_hitm;
+    qs_humi = gethumi(getdata("tmdata"));
 }
 
 

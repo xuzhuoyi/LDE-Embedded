@@ -49,13 +49,12 @@ ApplicationWindow {
         }
 
     Timer {
-        interval: 500;
+        interval: 1;
         running: true;
         repeat: false;
         onTriggered: {
             tmMain.setTemp();
             tmMain.setHumi();
-            new ChartsData.GetData();
             mainForm.t5.text = tmMain.temp;
             mainForm.t8.text = tmMain.humi;
         }

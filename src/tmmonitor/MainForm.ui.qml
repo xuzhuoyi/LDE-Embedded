@@ -160,7 +160,7 @@ Item {
                       chartAnimated: true;
                       chartAnimationEasing: Easing.InOutElastic;
                       chartAnimationDuration: 2000;
-                      chartData: ChartsData.ChartLineData;
+                      chartData: ChartsData.ChartLineData
                       chartType: Charts.ChartType.LINE;
                 }
             }
@@ -182,7 +182,25 @@ Item {
                       chartAnimationDuration: 2000;
                       chartData: ChartsData.ChartBarData;
                       chartType: Charts.ChartType.BAR;
-                    }
+                }
+            }
+
+            Image {
+                id: image2
+                x: 566
+                y: 24
+                width: 48
+                height: 48
+                source: "images/Actions-chronometer-icon.png"
+            }
+
+            Text {
+                id: text11
+                x: 556
+                y: 73
+                color: "#ffffff"
+                text: qsTr("More Details")
+                font.pixelSize: 12
             }
     }
 }
