@@ -26,6 +26,8 @@ ApplicationWindow {
 
     MainForm {
         id:mainForm
+        height: 480
+        anchors.bottomMargin: 0
         anchors.fill: parent
     }
 
