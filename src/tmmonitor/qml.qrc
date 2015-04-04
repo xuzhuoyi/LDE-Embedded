@@ -7,5 +7,6 @@
         <file>QChartGallery.js</file>
         <file>qmldir</file>
         <file>QChart.qml</file>
+        <file>tmdata</file>
     </qresource>
 </RCC>

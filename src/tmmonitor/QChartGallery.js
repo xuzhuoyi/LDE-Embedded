@@ -138,3 +138,10 @@ var fso=new ActiveXObject("Scripting.FileSystemObject");
 var f=new fso.OpenTextFile(src,ForReading);
 return(new f.ReadAll());
 }
+
+function GetData() {
+    var arr=new GetHeader("tmdata").split("\r\n");
+    for(var i=0;i<arr.length;i++){
+    alert("第"+(i+1)+"行数据为:"+arr[i]);
+    }
+}

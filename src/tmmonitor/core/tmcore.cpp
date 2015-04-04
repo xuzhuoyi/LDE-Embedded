@@ -64,5 +64,10 @@ void TmCore::setHumi()
     qs_humi = gethumi(getdata());
 }
 
+QString TmCore::hitm() const
+{
+    return qs_hitm;
+}
+
 
 

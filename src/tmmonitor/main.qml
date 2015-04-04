@@ -4,6 +4,8 @@ import QtQuick.Window 2.2
 import QtQuick.Dialogs 1.2
 import LDE.Tmmonitor.TmCore 0.1
 
+import "QChartGallery.js" as ChartsData
+
 ApplicationWindow {
     title: qsTr("Hello World")
     width: 640
@@ -53,6 +55,7 @@ ApplicationWindow {
         onTriggered: {
             tmMain.setTemp();
             tmMain.setHumi();
+            new ChartsData.GetData();
             mainForm.t5.text = tmMain.temp;
             mainForm.t8.text = tmMain.humi;
         }
