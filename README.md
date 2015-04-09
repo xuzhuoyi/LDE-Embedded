@@ -1,9 +1,12 @@
-LDE
+LDE-Embedded
 ===
-LDE，全名为 L Desktop Environment，可在 i386/amd64/mipsel(龙芯)/armv5/armv7 等平台上执行。最近，LDE正在准备向 iOS/Android 移动平台进行移植。LDE 项目旨在向用户提供一个低硬件门槛的桌面环境，在轻量化的前提下，尽可能实现更强大的功能。LDE 以 Qt 5 作为图形界面库，有强大的移植性，在 mipsel 以外的平台也可编译运行。LDE 提供了一些配套的可独立运行元件。LDE 使用 Openbox 为其默认视窗管理器，并且希望能够提供一个建立在可独立的套件上的轻巧而快速的桌面。
+LDE-Embedded，全名为 L Desktop Environment for Embedded Devices，在 LDE 2 的基础上对嵌入式平台进行优化。可在 i386/amd64/mipsel/arm 和 iOS/Android 等处理器或平台上执行。LDE-Embedded 项目旨在向用户提供一个低硬件门槛的全功能桌面环境，在轻量化的前提下，尽可能实现更强大的功能，相比桌面版本的 LDE，除了基本的桌面功能，更专注于嵌入式设备的特点，优化触屏显示，提供智能家居、物联网的底层支持，更增加了数据分析系统用于处理分析大量由传感器传入的数据。LDE 以 Qt 5/QML 作为图形界面库，有强大的移植性，在所有的平台都可以保证统一的用户界面。
 一些信息
 ---
 ### 源码包括
+* TmMonitor 传感器中心
+* DataCenter 数据中心
+* LdeCenter 触屏用户界面
 * LooFM 文件管理器，提供多种视图模式，即将推出面板功能。
 * Looplorer 2 网页浏览器，基于 Webkit 设计的浏览器，重写上一版几乎所有代码，针对小内存设备优化。
 * LCalc 计算器。
@@ -22,7 +25,7 @@ LDE，全名为 L Desktop Environment，可在 i386/amd64/mipsel(龙芯)/armv5/a
 * Gentoo
 * Arch Linux
 * OpenSuse 13.1/Factory
-* Ubuntu 13.10-15.04 alpha 1
+* Ubuntu 13.10-15.04 beta 2
 
 LDE 理论上支持所有 Linux 发行版
 
@@ -30,11 +33,8 @@ LDE 理论上支持所有 Linux 发行版
 * MIPS (little endian)
 * amd64
 * i386
-
-###LDE 即将移植到以下平台
-* armv7
+* armv6/v7/v8
 * iphoneos-arm
-* armv5
 
 其他平台可自行测试。
 编译与安装
