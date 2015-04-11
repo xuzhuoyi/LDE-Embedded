@@ -1,7 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
-        <file>MainForm.ui.qml</file>
         <file>images/Apps-accessories-calculator-icon.png</file>
         <file>images/Apps-yakuake-icon.png</file>
         <file>images/Apps-scribus-icon.png</file>
