@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>LDE-Embedded by xuzhuoyi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">LDE-Embedded</h1>
+      <h2 class="project-tagline">LDE 桌面环境嵌入式设备优化版本</h2>
+      <a href="https://github.com/xuzhuoyi/LDE-Embedded" class="btn">View on GitHub</a>
+      <a href="https://github.com/xuzhuoyi/LDE-Embedded/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/xuzhuoyi/LDE-Embedded/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="lde-embedded" class="anchor" href="#lde-embedded" aria-hidden="true"><span class="octicon octicon-link"></span></a>LDE-Embedded</h1>
+
+<p>LDE-Embedded，全名为 L Desktop Environment for Embedded Devices，在 LDE 2 的基础上对嵌入式平台进行优化。可在 i386/amd64/mipsel/arm 和 iOS/Android 等处理器或平台上执行。LDE-Embedded 项目旨在向用户提供一个低硬件门槛的全功能桌面环境，在轻量化的前提下，尽可能实现更强大的功能，相比桌面版本的 LDE，除了基本的桌面功能，更专注于嵌入式设备的特点，优化触屏显示，提供智能家居、物联网的底层支持，更增加了数据分析系统用于处理分析大量由传感器传入的数据。LDE 以 Qt 5/QML 作为图形界面库，有强大的移植性，在所有的平台都可以保证统一的用户界面。</p>
+
+<h2>
+<a id="一些信息" class="anchor" href="#%E4%B8%80%E4%BA%9B%E4%BF%A1%E6%81%AF" aria-hidden="true"><span class="octicon octicon-link"></span></a>一些信息</h2>
+
+<h3>
+<a id="源码包括" class="anchor" href="#%E6%BA%90%E7%A0%81%E5%8C%85%E6%8B%AC" aria-hidden="true"><span class="octicon octicon-link"></span></a>源码包括</h3>
+
+<ul>
+<li>TmMonitor 传感器中心</li>
+<li>DataCenter 数据中心</li>
+<li>LdeCenter 触屏用户界面</li>
+<li>LooFM 文件管理器，提供多种视图模式，即将推出面板功能。</li>
+<li>Looplorer 2 网页浏览器，基于 Webkit 设计的浏览器，重写上一版几乎所有代码，针对小内存设备优化。</li>
+<li>LCalc 计算器。</li>
+<li>LooFTP FTP 客户端。（基于 QtFtp）</li>
+<li>InitLDE 会话管理器，当使用者启动会话时建立桌面环境并自动启动程序的工具，提供对配置文件的管理功能。</li>
+<li>Looget 可指定存储位置，带进度条的下载工具。</li>
+<li>Lootepad 文字编辑器，基于 Qt 的文本编辑器。最新的版本支持恢复功能。</li>
+<li>Loogout 注销管理器。</li>
+<li>LRun 程序快速启动器。</li>
+<li>Ldeabout 内嵌于 LDE 软件中，显示 LDE 版本、作者等信息的模块。</li>
+<li>Ldecc LDE 控制中心，控制硬件与软件的各项设置。</li>
+</ul>
+
+<h3>
+<a id="已经测试支持的linux系统版本" class="anchor" href="#%E5%B7%B2%E7%BB%8F%E6%B5%8B%E8%AF%95%E6%94%AF%E6%8C%81%E7%9A%84linux%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC" aria-hidden="true"><span class="octicon octicon-link"></span></a>已经测试支持的Linux系统/版本:</h3>
+
+<ul>
+<li>Linux Mint 16/17/17.1</li>
+<li>Debian stable/testing/sid</li>
+<li>Gentoo</li>
+<li>Arch Linux</li>
+<li>OpenSuse 13.1/Factory</li>
+<li>Ubuntu 13.10-15.04 beta 2</li>
+</ul>
+
+<p>LDE 理论上支持所有 Linux 发行版</p>
+
+<h3>
+<a id="已经测试编译通过的平台" class="anchor" href="#%E5%B7%B2%E7%BB%8F%E6%B5%8B%E8%AF%95%E7%BC%96%E8%AF%91%E9%80%9A%E8%BF%87%E7%9A%84%E5%B9%B3%E5%8F%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>已经测试编译通过的平台:</h3>
+
+<ul>
+<li>MIPS (little endian)</li>
+<li>amd64</li>
+<li>i386</li>
+<li>armv6/v7/v8</li>
+<li>iphoneos-arm</li>
+</ul>
+
+<p>其他平台可自行测试。</p>
+
+<h2>
+<a id="编译与安装" class="anchor" href="#%E7%BC%96%E8%AF%91%E4%B8%8E%E5%AE%89%E8%A3%85" aria-hidden="true"><span class="octicon octicon-link"></span></a>编译与安装</h2>
+
+<h3>
+<a id="编译安装" class="anchor" href="#%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85" aria-hidden="true"><span class="octicon octicon-link"></span></a>编译安装</h3>
+
+<h3>
+<a id="二进制安装包安装" class="anchor" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%AE%89%E8%A3%85%E5%8C%85%E5%AE%89%E8%A3%85" aria-hidden="true"><span class="octicon octicon-link"></span></a>二进制安装包安装</h3>
+
+<p>用户可以从 Github 的 Releases 中获取已编译完成的二进制安装包。
+同样也可以直接到 ftp://ftp.loongsoner.com/LDE 下载安装包</p>
+
+<p>同一目录下的 ldemanual.txt/ldemanual.abw 是两种格式的用户手册，里面有安装方法。</p>
+
+<h2>
+<a id="共同开发" class="anchor" href="#%E5%85%B1%E5%90%8C%E5%BC%80%E5%8F%91" aria-hidden="true"><span class="octicon octicon-link"></span></a>共同开发</h2>
+
+<h3>
+<a id="贡献代码" class="anchor" href="#%E8%B4%A1%E7%8C%AE%E4%BB%A3%E7%A0%81" aria-hidden="true"><span class="octicon octicon-link"></span></a>贡献代码</h3>
+
+<p>LDE 使用 Git 作为版本控制系统. 我们所有的代码都可以在 Github 找到</p>
+
+<p>你可以直接从 Github Clone 一份 LDE 的源码</p>
+
+<pre><code>git clone https://github.com/xuzhuoyi/LDE/
+</code></pre>
+
+<p>Git 的更多信息，参见官方网站: <a href="http://git-scm.com/">http://git-scm.com/</a></p>
+
+<h3>
+<a id="撰写文档" class="anchor" href="#%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3" aria-hidden="true"><span class="octicon octicon-link"></span></a>撰写文档</h3>
+
+<p>ldemanual.txt/ldemanual.abw 是两种格式的用户手册，你可以修改或添加里面的内容</p>
+
+<h3>
+<a id="报告-bugs" class="anchor" href="#%E6%8A%A5%E5%91%8A-bugs" aria-hidden="true"><span class="octicon octicon-link"></span></a>报告 Bugs</h3>
+
+<p>我们所有的问题都记录在 GitHub 上。</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/xuzhuoyi/LDE-Embedded">LDE-Embedded</a> is maintained by <a href="https://github.com/xuzhuoyi">xuzhuoyi</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
