@@ -44,7 +44,6 @@ LDE 理论上支持所有 Linux 发行版
 
 ### 二进制安装包安装
 用户可以从 Github 的 Releases 中获取已编译完成的二进制安装包。
-同样也可以直接到 ftp://ftp.loongsoner.com/LDE 下载安装包
 
 同一目录下的 ldemanual.txt/ldemanual.abw 是两种格式的用户手册，里面有安装方法。
 共同开发
@@ -54,7 +53,7 @@ LDE 使用 Git 作为版本控制系统. 我们所有的代码都可以在 Githu
 
 你可以直接从 Github Clone 一份 LDE 的源码
 
-    git clone https://github.com/xuzhuoyi/LDE/
+    git clone https://github.com/xuzhuoyi/LDE-Embedded/
 Git 的更多信息，参见官方网站: http://git-scm.com/
 ### 撰写文档
 ldemanual.txt/ldemanual.abw 是两种格式的用户手册，你可以修改或添加里面的内容
