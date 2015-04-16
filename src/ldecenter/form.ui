@@ -47,7 +47,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="qml.qrc">:/images/Actions-go-bottom-icon.png</pixmap>
+     <pixmap resource="qml.qrc">:/images/Apps-utilities-system-monitor-icon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -66,7 +66,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="qml.qrc">:/images/Apps-accessories-calculator-icon.png</pixmap>
+     <pixmap resource="qml.qrc">:/images/Categories-applications-development-web-icon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -85,7 +85,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="qml.qrc">:/images/Apps-system-file-manager-icon.png</pixmap>
+     <pixmap resource="qml.qrc">:/images/Categories-applications-accessories-icon.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -205,6 +205,114 @@
      </property>
     </widget>
     <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>51</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通信系统</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>270</y>
+      <width>351</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="qml.qrc">:/images/Apps-esd-icon.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>40</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="qml.qrc">:/images/Apps-scribus-icon.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>40</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="qml.qrc">:/images/Apps-yakuake-icon.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>40</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="qml.qrc">:/images/Apps-preferences-web-browser-shortcuts-icon.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
      <property name="geometry">
       <rect>
        <x>20</x>

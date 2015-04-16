@@ -17,7 +17,7 @@ Form::Form(QWidget *parent) :
     ui->label_9->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_2->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_2->setVisible(true);
-    //ui->frame_3->setVisible(false);
+    ui->frame_3->setVisible(false);
     //ui->frame_4->setVisible(false);
 }
 
