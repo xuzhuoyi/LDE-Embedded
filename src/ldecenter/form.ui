@@ -141,7 +141,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="qml.qrc">:/images/Apps-esd-icon.png</pixmap>
+      <pixmap resource="qml.qrc">:/images/Apps-accessories-calculator-icon.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -160,7 +160,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="qml.qrc">:/images/Apps-scribus-icon.png</pixmap>
+      <pixmap resource="qml.qrc">:/images/Apps-system-file-manager-icon.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -179,7 +179,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="qml.qrc">:/images/Apps-yakuake-icon.png</pixmap>
+      <pixmap resource="qml.qrc">:/images/Apps-scribus-icon.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -214,7 +214,52 @@
       </rect>
      </property>
      <property name="text">
-      <string>通信系统</string>
+      <string>实用工具</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>105</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>计算器</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>96</x>
+       <y>105</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>文件管理器</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>176</x>
+       <y>105</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>文本编辑器</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
    </widget>
@@ -224,8 +269,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>270</y>
+      <x>100</x>
+      <y>60</y>
       <width>351</width>
       <height>191</height>
      </rect>
@@ -249,7 +294,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="qml.qrc">:/images/Apps-esd-icon.png</pixmap>
+      <pixmap resource="qml.qrc">:/images/Actions-go-bottom-icon.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -268,7 +313,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="qml.qrc">:/images/Apps-scribus-icon.png</pixmap>
+      <pixmap resource="qml.qrc">:/images/Apps-preferences-web-browser-shortcuts-icon.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -287,7 +332,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="qml.qrc">:/images/Apps-yakuake-icon.png</pixmap>
+      <pixmap resource="qml.qrc">:/images/Apps-scribus-icon.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -322,7 +367,52 @@
       </rect>
      </property>
      <property name="text">
-      <string>通信系统</string>
+      <string>网络通信</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>105</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>下载器</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>96</x>
+       <y>105</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>网页浏览器</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>176</x>
+       <y>105</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>文本编辑器</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
    </widget>

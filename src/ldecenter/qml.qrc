@@ -11,5 +11,7 @@
         <file>images/Apps-utilities-system-monitor-icon.png</file>
         <file>images/Categories-applications-development-web-icon.png</file>
         <file>images/Categories-applications-accessories-icon.png</file>
+        <file>images/Devices-network-wireless-icon.png</file>
+        <file>images/Apps-Charm-icon.png</file>
     </qresource>
 </RCC>

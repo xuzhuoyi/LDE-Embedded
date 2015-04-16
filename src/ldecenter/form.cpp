@@ -15,6 +15,17 @@ Form::Form(QWidget *parent) :
     ui->label_7->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_8->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_9->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_10->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_11->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_12->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_13->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_14->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_15->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_16->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_17->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_18->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_19->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_20->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_2->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_2->setVisible(true);
     ui->frame_3->setVisible(false);
