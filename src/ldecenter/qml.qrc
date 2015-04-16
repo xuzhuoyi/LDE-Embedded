@@ -8,5 +8,8 @@
         <file>images/Apps-system-file-manager-icon.png</file>
         <file>images/Apps-esd-icon.png</file>
         <file>images/1.jpg</file>
+        <file>images/Apps-utilities-system-monitor-icon.png</file>
+        <file>images/Categories-applications-development-web-icon.png</file>
+        <file>images/Categories-applications-accessories-icon.png</file>
     </qresource>
 </RCC>
