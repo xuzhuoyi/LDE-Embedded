@@ -36,3 +36,20 @@ Form::~Form()
 {
     delete ui;
 }
+
+void Form::on_label_clicked()
+{
+
+}
+
+void Form::on_label_2_clicked()
+{
+    ui->frame_2->setVisible(false);
+    ui->frame_3->setVisible(true);
+}
+
+void Form::on_label_6_clicked()
+{
+    ui->frame_3->setVisible(false);
+    ui->frame_2->setVisible(true);
+}

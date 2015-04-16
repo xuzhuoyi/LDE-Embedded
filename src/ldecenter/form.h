@@ -15,6 +15,13 @@ public:
     explicit Form(QWidget *parent = 0);
     ~Form();
 
+private slots:
+    void on_label_clicked();
+
+    void on_label_2_clicked();
+
+    void on_label_6_clicked();
+
 private:
     Ui::Form *ui;
 };

@@ -34,7 +34,7 @@
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
-   <widget class="QLabel" name="label">
+   <widget class="CustomerQLabel" name="label">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -53,7 +53,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="CustomerQLabel" name="label_2">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -72,7 +72,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_6">
+   <widget class="CustomerQLabel" name="label_6">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -418,6 +418,16 @@
    </widget>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CustomerQLabel</class>
+   <extends>QLabel</extends>
+   <header>customerqlabel.h</header>
+   <slots>
+    <signal>clicked()</signal>
+   </slots>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="qml.qrc"/>
  </resources>

@@ -3,12 +3,10 @@ TEMPLATE = app
 QT += qml quick widgets
 
 SOURCES += main.cpp \
-    form.cpp
+    form.cpp \
+    customerqlabel.cpp
 
 RESOURCES += qml.qrc
-
-# Additional import path used to resolve QML modules in Qt Creator's code model
-QML_IMPORT_PATH =
 
 # Default rules for deployment.
 include(deployment.pri)
@@ -17,4 +15,5 @@ FORMS += \
     form.ui
 
 HEADERS += \
-    form.h
+    form.h \
+    customerqlabel.h
