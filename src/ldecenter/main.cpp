@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     Form form;
     form.setWindowFlags(Qt::FramelessWindowHint);
     form.show();
-
+    form.showFullScreen();
 
     return app.exec();
 }

@@ -54,3 +54,8 @@ void Form::on_label_6_clicked()
     ui->frame_3->setVisible(false);
     ui->frame_2->setVisible(true);
 }
+
+void Form::on_pushButton_clicked()
+{
+    qApp->quit();
+}
