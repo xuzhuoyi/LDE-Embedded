@@ -1,12 +1,7 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
-        <file>MainForm.ui.qml</file>
         <file>images/Apps-akonadi-icon.png</file>
-        <file>QChart.js</file>
-        <file>QChartGallery.js</file>
         <file>qmldir</file>
-        <file>QChart.qml</file>
         <file>tmdata</file>
         <file>tmhdata</file>
         <file>images/Actions-chronometer-icon.png</file>
