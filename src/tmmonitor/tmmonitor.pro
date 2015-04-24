@@ -3,7 +3,8 @@ TEMPLATE = app
 QT += qml quick widgets
 
 SOURCES += main.cpp \
-    core/tmcore.cpp
+    core/tmcore.cpp \
+    form.cpp
 
 RESOURCES += qml.qrc
 
@@ -14,4 +15,8 @@ QML_IMPORT_PATH =
 include(deployment.pri)
 
 HEADERS += \
-    core/tmcore.h
+    core/tmcore.h \
+    form.h
+
+FORMS += \
+    form.ui

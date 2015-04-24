@@ -10,5 +10,6 @@
         <file>tmdata</file>
         <file>tmhdata</file>
         <file>images/Actions-chronometer-icon.png</file>
+        <file>images/2.jpg</file>
     </qresource>
 </RCC>

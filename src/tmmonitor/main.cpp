@@ -2,14 +2,13 @@
 #include <QQmlApplicationEngine>
 #include <QtQml>
 #include "core/tmcore.h"
+#include <form.h>
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    qmlRegisterType<TmCore>("LDE.Tmmonitor.TmCore", 0, 1, "TmCore");
-
-    QQmlApplicationEngine engine;
-    engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
+    Form form;
+    form.show();
 
     return app.exec();
 }
