@@ -15,8 +15,8 @@ public:
     explicit TmCore(QObject *parent = 0);
     ~TmCore();
 
-    QString temp() const;
-    QString humi() const;
+    QString temp();
+    QString humi();
 
     Q_INVOKABLE void setTemp();
     Q_INVOKABLE void setHumi();

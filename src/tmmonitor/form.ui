@@ -116,7 +116,7 @@ color: rgb(255, 255, 255);</string>
      <string>DHT-11 传感器数据</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_6">
+   <widget class="QLabel" name="labelTemp">
     <property name="geometry">
      <rect>
       <x>32</x>

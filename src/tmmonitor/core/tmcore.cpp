@@ -44,7 +44,7 @@ QString TmCore::gethumi(QString str)
     return strlist.at(1);
 }
 
-QString TmCore::temp() const
+QString TmCore::temp()
 {
     return qs_temp;
 }
@@ -54,7 +54,7 @@ void TmCore::setTemp()
     qs_temp = gettemp(getdata("tmdata"));
 }
 
-QString TmCore::humi() const
+QString TmCore::humi()
 {
     return qs_humi;
 }

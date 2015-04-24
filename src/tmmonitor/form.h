@@ -20,6 +20,7 @@ private slots:
 
 private:
     Ui::Form *ui;
+    void getInfo();
 };
 
 #endif // FORM_H

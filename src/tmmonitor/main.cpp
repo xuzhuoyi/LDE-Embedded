@@ -1,6 +1,4 @@
 #include <QApplication>
-#include <QQmlApplicationEngine>
-#include <QtQml>
 #include "core/tmcore.h"
 #include <form.h>
 
