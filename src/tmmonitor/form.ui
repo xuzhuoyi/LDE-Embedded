@@ -125,8 +125,16 @@ color: rgb(255, 255, 255);</string>
       <height>56</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;19&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -174,8 +182,13 @@ color: rgb(255, 255, 255);</string>
       <height>56</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;N/A&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_10">
@@ -201,8 +214,8 @@ color: rgb(255, 255, 255);</string>
      <rect>
       <x>249</x>
       <y>177</y>
-      <width>36</width>
-      <height>17</height>
+      <width>10</width>
+      <height>15</height>
      </rect>
     </property>
     <property name="font">
