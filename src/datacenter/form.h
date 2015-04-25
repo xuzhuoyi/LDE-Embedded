@@ -18,6 +18,9 @@ public:
 
 public slots:
     void ontimeout();
+private slots:
+    void on_pushButton_3_clicked();
+
 private:
     Ui::Form *ui;
     QTimer *timer;

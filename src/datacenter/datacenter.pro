@@ -6,6 +6,12 @@
 
 QT       += core gui
 
+CONFIG += c++11
+
+INCLUDEPATH += /usr/local/qwt-6.1.2/include
+
+LIBS += -L/usr/local/qwt-6.1.2/lib -lqwt -Wl,-rpath,/usr/local/qwt-6.1.0/lib
+
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = datacenter
