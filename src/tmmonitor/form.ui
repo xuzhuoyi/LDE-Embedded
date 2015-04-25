@@ -137,7 +137,7 @@ color: rgb(255, 255, 255);</string>
      <string notr="true">color: rgb(32, 190, 23);</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;19&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>19</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -176,7 +176,7 @@ color: rgb(255, 255, 255);</string>
      <string>摄氏度</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_9">
+   <widget class="QLabel" name="labelHumi">
     <property name="geometry">
      <rect>
       <x>173</x>
@@ -194,7 +194,7 @@ color: rgb(255, 255, 255);</string>
      <string notr="true">color: rgb(32, 190, 23);</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;45&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>45</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_10">

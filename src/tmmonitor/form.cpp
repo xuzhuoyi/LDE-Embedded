@@ -7,7 +7,8 @@ Form::Form(QWidget *parent) :
     ui(new Ui::Form)
 {
     ui->setupUi(this);
-    ui->labelTemp->setAlignment(Qt::AlignRight);
+    ui->labelTemp->setAlignment(Qt::AlignRight | Qt::AlignVCenter);
+    ui->labelHumi->setAlignment(Qt::AlignRight | Qt::AlignVCenter);
     getInfo();
 }
 
@@ -29,10 +30,10 @@ void Form::getInfo()
         tmCore.setTemp();
         return tmCore.temp();
     }());
-    ui->labelTemp->setText([=]
+    ui->labelHumi->setText([=]
     {
         TmCore tmCore;
-        tmCore.setTemp();
-        return tmCore.temp();
+        tmCore.setHumi();
+        return tmCore.humi();
     }());
 }

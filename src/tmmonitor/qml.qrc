@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>images/Apps-akonadi-icon.png</file>
-        <file>qmldir</file>
         <file>tmdata</file>
         <file>tmhdata</file>
         <file>images/Actions-chronometer-icon.png</file>

@@ -20,7 +20,7 @@ QString TmCore::getdata(QString loc)
     if(!f.open(QIODevice::ReadOnly | QIODevice::Text))
     {
        // std::cout << "Open failed." << endl;
-        return "12 12 23 12 23 12 21";
+        return "N/A N/A";
     }
 
     QTextStream txtInput(&f);
