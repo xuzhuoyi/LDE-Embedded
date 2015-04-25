@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QTimer>
+#include <qwt_plot_curve.h>
 
 namespace Ui {
 class Form;
@@ -24,6 +25,7 @@ private slots:
 private:
     Ui::Form *ui;
     QTimer *timer;
+    QwtPlotCurve curve;
 };
 
 #endif // FORM_H

@@ -1,6 +1,8 @@
 #include "form.h"
 #include "ui_form.h"
 #include <QDateTime>
+#include <qwt_point_data.h>
+#include <qwt_plot_curve.h>
 
 Form::Form(QWidget *parent) :
     QWidget(parent),
@@ -29,6 +31,20 @@ Form::Form(QWidget *parent) :
     timer = new QTimer(this);
     connect(timer,SIGNAL(timeout()), this, SLOT(ontimeout()));
     timer->start(1000);
+    QVector<double> xs;
+        QVector<double> ys;
+        for (double x = 0; x < 2.0 * M_PI; x+=(M_PI / 10.0))
+        {
+            xs.append(x);
+            ys.append(qSin(x));
+        }
+        curve.attach(ui->qwtPlot);//把曲线附加到plot上
+            curve.setSamples(xs,ys);
+            curve.setStyle(QwtPlotCurve::Lines);//设置曲线上是点还是线，默认是线，所以此行可不加
+            curve.setCurveAttribute(QwtPlotCurve::Fitted, true);//使曲线更光滑，不加这句曲线会很硬朗，有折点
+            curve.setPen(QPen(Qt::blue));//设置画笔
+
+
 }
 
 Form::~Form()
