@@ -17,3 +17,9 @@ FORMS += \
 HEADERS += \
     form.h \
     customerqlabel.h
+    
+DESTDIR += ../../usr/bin
+
+# install
+target.path = /usr/bin
+INSTALLS += target
