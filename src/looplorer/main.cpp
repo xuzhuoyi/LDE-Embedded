@@ -87,6 +87,6 @@ int main(int argc, char * argv[])
     windowNum = 0;
     MainWindow browser(url);
     browser.show();
-
+    browser.showFullScreen();
     return app.exec();
 }
