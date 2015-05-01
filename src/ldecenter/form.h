@@ -24,6 +24,12 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_label_23_clicked();
+
+    void on_label_21_clicked();
+
+    void on_label_22_clicked();
+
 private:
     Ui::Form *ui;
 };

@@ -13,5 +13,8 @@
         <file>images/Categories-applications-accessories-icon.png</file>
         <file>images/Devices-network-wireless-icon.png</file>
         <file>images/Apps-Charm-icon.png</file>
+        <file>images/Actions-help-about-icon.png</file>
+        <file>images/Actions-system-shutdown-icon.png</file>
+        <file>images/Actions-view-media-equalizer-icon.png</file>
     </qresource>
 </RCC>
