@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>480</width>
+    <height>320</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,11 +16,16 @@
   <widget class="QTabWidget" name="tabWidget">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>15</x>
      <y>80</y>
-     <width>381</width>
-     <height>181</height>
+     <width>451</width>
+     <height>191</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>17</pointsize>
+    </font>
    </property>
    <property name="currentIndex">
     <number>0</number>
@@ -39,7 +44,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>基于 Qt 的轻量级桌面环境</string>
+      <string>基于 Qt 的轻量级嵌入式设备工作环境</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_3">
@@ -86,7 +91,7 @@
       <rect>
        <x>10</x>
        <y>90</y>
-       <width>351</width>
+       <width>421</width>
        <height>16</height>
       </rect>
      </property>
@@ -99,7 +104,7 @@
       <rect>
        <x>10</x>
        <y>110</y>
-       <width>361</width>
+       <width>431</width>
        <height>31</height>
       </rect>
      </property>
@@ -117,7 +122,7 @@
       <rect>
        <x>10</x>
        <y>50</y>
-       <width>61</width>
+       <width>101</width>
        <height>16</height>
       </rect>
      </property>
@@ -130,7 +135,7 @@
       <rect>
        <x>10</x>
        <y>70</y>
-       <width>361</width>
+       <width>421</width>
        <height>16</height>
       </rect>
      </property>
@@ -143,7 +148,7 @@
       <rect>
        <x>10</x>
        <y>10</y>
-       <width>361</width>
+       <width>421</width>
        <height>41</height>
       </rect>
      </property>
@@ -159,7 +164,7 @@
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>10</x>
+       <x>50</x>
        <y>10</y>
        <width>351</width>
        <height>131</height>
@@ -179,7 +184,7 @@
       <rect>
        <x>10</x>
        <y>10</y>
-       <width>351</width>
+       <width>371</width>
        <height>16</height>
       </rect>
      </property>
@@ -202,7 +207,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>桌面环境版本：LDE 2.0.0</string>
+      <string>桌面环境版本：LDE 2.2.0</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -228,7 +233,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Framework:Qt 5</string>
+      <string>Framework:Qt 5.4</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_16">
@@ -241,7 +246,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>LDE Software Collection 版本：2.0.0</string>
+      <string>LDE Software Collection 版本：2.2.0</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_17">
@@ -262,10 +267,10 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>270</y>
-     <width>80</width>
-     <height>27</height>
+     <x>380</x>
+     <y>275</y>
+     <width>91</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -277,12 +282,17 @@
     <rect>
      <x>20</x>
      <y>20</y>
-     <width>351</width>
+     <width>441</width>
      <height>31</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;L Desktop Environment&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;L Desktop Environment For Embedded Devices&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_12">
@@ -295,16 +305,16 @@
     </rect>
    </property>
    <property name="text">
-    <string>v2.0.1</string>
+    <string>v2.2.0</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>270</y>
-     <width>80</width>
-     <height>27</height>
+     <x>290</x>
+     <y>275</y>
+     <width>91</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
