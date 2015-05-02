@@ -26,6 +26,12 @@ private:
     Ui::Form *ui;
     QTimer *timer;
     QwtPlotCurve curve;
+    QVector<double> xs;
+    QVector<double> ys;
+
+protected:
+
+   void timerEvent( QTimerEvent *event );
 };
 
 #endif // FORM_H

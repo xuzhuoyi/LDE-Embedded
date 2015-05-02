@@ -19,10 +19,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-    form.cpp
+    form.cpp \
+    core/tmcore.cpp
 
 HEADERS  += \
-    form.h
+    form.h \
+    core/tmcore.h
 
 FORMS    += \
     form.ui
