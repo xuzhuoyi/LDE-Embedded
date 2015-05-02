@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = 'xuzhuoyi'
+__author__ = 'Zhuoyi Xu'
 
 import RPi.GPIO as gpio
 import time
@@ -76,6 +76,6 @@ if check == tmp:
 else:
     print("something is wrong the humidity, humidity_point, temperature, temperature_point, check is", humidity, humidity_point, temperature, temperature_point, check)
 
-fp = open("htdata", 'w')
+fp = open("ht.data", 'w')
 fp.write(str(temperature) + " " + str(humidity))
 fp.close()
