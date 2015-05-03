@@ -30,6 +30,18 @@ private slots:
 
     void on_label_22_clicked();
 
+    void on_label_3_clicked();
+
+    void on_label_5_clicked();
+
+    void on_label_7_clicked();
+
+    void on_label_11_clicked();
+
+    void on_label_24_clicked();
+
+    void on_label_25_clicked();
+
 private:
     Ui::Form *ui;
 };

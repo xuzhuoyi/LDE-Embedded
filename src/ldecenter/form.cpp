@@ -30,11 +30,20 @@ Form::Form(QWidget *parent) :
     ui->label_21->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_22->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_23->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_24->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_25->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_26->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_27->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_28->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_29->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_30->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_31->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_2->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_3->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->frame_4->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_2->setVisible(true);
     ui->frame_3->setVisible(false);
-    //ui->frame_4->setVisible(false);
+    ui->frame_4->setVisible(false);
 }
 
 Form::~Form()
@@ -44,19 +53,23 @@ Form::~Form()
 
 void Form::on_label_clicked()
 {
-
+    ui->frame_2->setVisible(false);
+    ui->frame_3->setVisible(false);
+    ui->frame_4->setVisible(true);
 }
 
 void Form::on_label_2_clicked()
 {
     ui->frame_2->setVisible(false);
     ui->frame_3->setVisible(true);
+    ui->frame_4->setVisible(false);
 }
 
 void Form::on_label_6_clicked()
 {
     ui->frame_3->setVisible(false);
     ui->frame_2->setVisible(true);
+    ui->frame_4->setVisible(false);
 }
 
 void Form::on_pushButton_clicked()
@@ -80,4 +93,40 @@ void Form::on_label_22_clicked()
 {
     QProcess *mainProcess = new QProcess;
     mainProcess->start("./loogout",NULL);
+}
+
+void Form::on_label_3_clicked()
+{
+    QProcess *mainProcess = new QProcess;
+    mainProcess->start("./lcalc",NULL);
+}
+
+void Form::on_label_5_clicked()
+{
+    QProcess *mainProcess = new QProcess;
+    mainProcess->start("./loofm",NULL);
+}
+
+void Form::on_label_7_clicked()
+{
+    QProcess *mainProcess = new QProcess;
+    mainProcess->start("./lootepad",NULL);
+}
+
+void Form::on_label_11_clicked()
+{
+    QProcess *mainProcess = new QProcess;
+    mainProcess->start("./looplorer",NULL);
+}
+
+void Form::on_label_24_clicked()
+{
+    QProcess *mainProcess = new QProcess;
+    mainProcess->start("./tmmonitor",NULL);
+}
+
+void Form::on_label_25_clicked()
+{
+    QProcess *mainProcess = new QProcess;
+    mainProcess->start("./datacenter",NULL);
 }
