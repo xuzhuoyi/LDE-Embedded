@@ -39,9 +39,14 @@
       <rect>
        <x>10</x>
        <y>10</y>
-       <width>351</width>
+       <width>421</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>基于 Qt 的轻量级嵌入式设备工作环境</string>
@@ -55,6 +60,11 @@
        <width>351</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>Copyright 2014-2015 LDE Team</string>
@@ -77,13 +87,18 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>70</y>
+       <y>65</y>
        <width>351</width>
-       <height>16</height>
+       <height>21</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
      <property name="text">
-      <string>网站：http://xuzhuoyi.github.io</string>
+      <string>网站：http://lde.gitcafe.io</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -92,8 +107,13 @@
        <x>10</x>
        <y>90</y>
        <width>421</width>
-       <height>16</height>
+       <height>21</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>发布页面：http://github.com/xuzhuoyi/LDE/releases</string>
@@ -108,8 +128,13 @@
        <height>31</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
      <property name="text">
-      <string>协议：GNU Lesser General Public License version 2.1 or later and partly under the GNU General Public License version 2</string>
+      <string>协议：GNU General Public License version 2 or later</string>
      </property>
     </widget>
    </widget>
@@ -126,6 +151,11 @@
        <height>16</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>LDE Team</string>
      </property>
@@ -139,6 +169,11 @@
        <height>16</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>Zhuoyi Xu (LDE Team) &lt;xzy473686434@vip.qq.com&gt;</string>
      </property>
@@ -151,6 +186,11 @@
        <width>421</width>
        <height>41</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>如果您感兴趣，欢迎共同开发。在 Github 取得代码后，可以自由修改提交版本，修改后请将自己的名字添加在后面。</string>
@@ -170,6 +210,11 @@
        <height>131</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;特别致谢：&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;LXQT Project (Razorqt-panel)&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;feh Project&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Debian Project&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
@@ -187,6 +232,11 @@
        <width>371</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>如果有人有精力，就来把它翻译成无数种语言吧。</string>
@@ -206,6 +256,11 @@
        <height>16</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>桌面环境版本：LDE 2.2.0</string>
      </property>
@@ -218,6 +273,11 @@
        <width>341</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>启动模式：正常</string>
@@ -232,8 +292,13 @@
        <height>16</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
      <property name="text">
-      <string>Framework:Qt 5.4</string>
+      <string>Framework:Qt 5.2</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_16">
@@ -244,6 +309,11 @@
        <width>341</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>LDE Software Collection 版本：2.2.0</string>
@@ -257,6 +327,11 @@
        <width>341</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>LDE WallPapers 版本：未安装</string>
@@ -282,7 +357,7 @@
     <rect>
      <x>20</x>
      <y>20</y>
-     <width>441</width>
+     <width>451</width>
      <height>31</height>
     </rect>
    </property>
@@ -292,7 +367,7 @@
     </font>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;L Desktop Environment For Embedded Devices&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;L Desktop Environment&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_12">
@@ -305,7 +380,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>v2.2.0</string>
+    <string>For Embedded Devices v2.2.0</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
