@@ -1,5 +1,6 @@
 #include "form.h"
 #include "ui_form.h"
+#include <QProcess>
 
 Form::Form(QWidget *parent) :
     QWidget(parent),
