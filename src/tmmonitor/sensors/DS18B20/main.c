@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
 	if((fp = fopen("tmdata", "w")) == NULL)
 	{
 		printf("Cannot open file\n");
-	    exit(0);
+		exit(0);
 	}
 	fprintf(fp, "%d.%d 0", integer, decimal);
 	fclose(fp);
