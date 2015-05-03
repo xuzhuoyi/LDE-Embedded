@@ -53,6 +53,16 @@ int main(int argc, char *argv[])
 	printf("temperature is %d.%d\n", integer, decimal);
 
 	close(fd);
+	
+	FILE *fp;
+	if((fp = fopen("tmdata", "w")) == NULL)
+	{
+		printf("Cannot open file\n");
+	    exit(0);
+	}
+	fprintf(fp, "%d.%d 0", integer, decimal);
+	fclose(fp);
+	
 	sleep(1);
 	}
 	return 0;
