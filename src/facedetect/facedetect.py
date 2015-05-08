@@ -1,6 +1,4 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
-__author__ = 'Zhuoyi Xu'
 """
 This program is demonstration for face and object detection using haar-like features.
 The program finds faces in a camera image or video stream and displays a red box around them.
@@ -26,12 +24,11 @@ haar_scale = 1.2
 min_neighbors = 2
 haar_flags = 0
 
-
 def detect_and_draw(img, cascade):
     # allocate temporary images
-    gray = cv.CreateImage((img.width, img.height), 8, 1)
+    gray = cv.CreateImage((img.width,img.height), 8, 1)
     small_img = cv.CreateImage((cv.Round(img.width / image_scale),
-                   cv.Round(img.height / image_scale)), 8, 1)
+                   cv.Round (img.height / image_scale)), 8, 1)
 
     # convert color input image to grayscale
     cv.CvtColor(img, gray, cv.CV_BGR2GRAY)
@@ -59,10 +56,8 @@ def detect_and_draw(img, cascade):
 
 if __name__ == '__main__':
 
-    parser = OptionParser(usage="usage: %prog [options] [filename|camera_index]")
-    parser.add_option("-c", "--cascade", action="store", dest="cascade", type="str", help=
-                      "Haar cascade file, default %default", default=
-                      "/data/haarcascades/haarcascade_frontalface_alt.xml")
+    parser = OptionParser(usage = "usage: %prog [options] [filename|camera_index]")
+    parser.add_option("-c", "--cascade", action="store", dest="cascade", type="str", help="Haar cascade file, default %default", default = "data/haarcascades/haarcascade_frontalface_alt.xml")
     (options, args) = parser.parse_args()
 
     cascade = cv.Load(options.cascade)

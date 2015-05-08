@@ -33,7 +33,7 @@ class MainForm(QtGui.QWidget):
     def analyse_faces():
         global s
         print "%s" % s
-        os.execl("/usr/bin/python", "python", "FaceDetect.py", s)
+        os.system("/usr/bin/python facedetect.py " + str(s))
 
     @staticmethod
     def exit_program():
