@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>321</width>
+     <height>251</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBox" name="toolBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>121</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>121</width>
+      <height>233</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>文件</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>111</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>打开</string>
+     </property>
+     <property name="icon">
+      <iconset resource="fd.qrc">
+       <normaloff>:/data/images/Actions-document-open-icon.png</normaloff>:/data/images/Actions-document-open-icon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>111</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>关闭</string>
+     </property>
+     <property name="icon">
+      <iconset resource="fd.qrc">
+       <normaloff>:/data/images/Actions-dialog-close-icon.png</normaloff>:/data/images/Actions-dialog-close-icon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>111</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>从摄像头</string>
+     </property>
+     <property name="icon">
+      <iconset resource="fd.qrc">
+       <normaloff>:/data/images/Apps-digikam-icon.png</normaloff>:/data/images/Apps-digikam-icon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>121</width>
+      <height>233</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>处理</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>111</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>分析人脸</string>
+     </property>
+     <property name="icon">
+      <iconset resource="fd.qrc">
+       <normaloff>:/data/images/Actions-document-preview-archive-icon.png</normaloff>:/data/images/Actions-document-preview-archive-icon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>111</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>首选项</string>
+     </property>
+     <property name="icon">
+      <iconset resource="fd.qrc">
+       <normaloff>:/data/images/Categories-preferences-system-icon.png</normaloff>:/data/images/Categories-preferences-system-icon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>111</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>退出</string>
+     </property>
+     <property name="icon">
+      <iconset resource="fd.qrc">
+       <normaloff>:/data/images/Actions-application-exit-icon.png</normaloff>:/data/images/Actions-application-exit-icon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>280</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>LDE 人脸识别模块 V0.1</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="fd.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,10 @@
+<RCC>
+  <qresource>
+    <file>data/images/Actions-application-exit-icon.png</file>
+    <file>data/images/Actions-dialog-close-icon.png</file>
+    <file>data/images/Actions-document-open-icon.png</file>
+    <file>data/images/Actions-document-preview-archive-icon.png</file>
+    <file>data/images/Apps-digikam-icon.png</file>
+    <file>data/images/Categories-preferences-system-icon.png</file>
+  </qresource>
+</RCC>
