@@ -1,6 +1,10 @@
 #include "widget.h"
 #include "ui_widget.h"
 #include <QDateTime>
+#include <QFile>
+#include <QProcess>
+#include <QTextStream>
+#include <unistd.h>
 
 Widget::Widget(QWidget *parent) :
     QWidget(parent),
@@ -64,5 +68,30 @@ void Widget::on_label_16_clicked()
     QProcess *mainProcess = new QProcess;
     QStringList runArgsList;
     runArgsList << "../../../LWebBox/PiBox/start.sh";
+    mainProcess->start("sh", runArgsList);
+    sleep(3);
+    ui->label_9->setText([=]
+    {
+        QFile f("../../../LWebBox/PiBox/ip");
+        if(!f.open(QIODevice::ReadOnly | QIODevice::Text))
+        {
+
+        }
+
+        QTextStream txtInput(&f);
+        QString lineStr;
+        while(!txtInput.atEnd())
+            lineStr = txtInput.readLine();
+
+        f.close();
+        return lineStr;
+    }());
+}
+
+void Widget::on_label_17_clicked()
+{
+    QProcess *mainProcess = new QProcess;
+    QStringList runArgsList;
+    runArgsList << "../../../LWebBox/PiBox/stop.sh";
     mainProcess->start("sh", runArgsList);
 }
