@@ -141,3 +141,15 @@ void Form::on_label_26_clicked()
     runArgsList << "Main.py";
     mainProcess->start("python2", runArgsList);
 }
+
+void Form::on_label_12_clicked()
+{
+    QProcess *mainProcess = new QProcess;
+    mainProcess->start("./LWebBoxCon",NULL);
+}
+
+void Form::on_label_10_clicked()
+{
+    QProcess *mainProcess = new QProcess;
+    mainProcess->start("./looget",NULL);
+}
