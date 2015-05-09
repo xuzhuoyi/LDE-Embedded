@@ -13,6 +13,8 @@ Widget::Widget(QWidget *parent) :
     ui->setupUi(this);
     setLabelTrans();
     this->startTimer(1000);
+    if (isServerRunning())
+        ui->label_7->setText("运行");
 }
 
 Widget::~Widget()
@@ -61,6 +63,7 @@ void Widget::setLabelTrans()
     ui->label_15->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_16->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_17->setAttribute(Qt::WA_TranslucentBackground, true);
+    ui->label_18->setAttribute(Qt::WA_TranslucentBackground, true);
 }
 
 void Widget::on_label_16_clicked()
@@ -86,6 +89,7 @@ void Widget::on_label_16_clicked()
         f.close();
         return lineStr;
     }());
+    ui->label_7->setText("运行");
 }
 
 void Widget::on_label_17_clicked()
@@ -94,4 +98,25 @@ void Widget::on_label_17_clicked()
     QStringList runArgsList;
     runArgsList << "../../../LWebBox/PiBox/stop.sh";
     mainProcess->start("sh", runArgsList);
+    ui->label_7->setText("停止");
+}
+
+bool Widget::isServerRunning()
+{
+    QFile f("../../../LWebBox/PiBox/ip");
+    if(!f.open(QIODevice::ReadOnly | QIODevice::Text))
+    {
+        f.close();
+        return false;
+    }
+    else
+    {
+        f.close();
+        return true;
+    }
+}
+
+void Widget::on_pushButton_clicked()
+{
+    exit(0);
 }

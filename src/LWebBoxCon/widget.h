@@ -18,6 +18,7 @@ public:
 private:
     Ui::Widget *ui;
     void setLabelTrans();
+    bool isServerRunning();
 
 protected:
 
@@ -26,6 +27,7 @@ protected:
 private slots:
    void on_label_16_clicked();
    void on_label_17_clicked();
+   void on_pushButton_clicked();
 };
 
 #endif // WIDGET_H
