@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/1.jpg</file>
+        <file>image/Actions-media-playback-start-icon.png</file>
+        <file>image/Actions-media-playback-stop-icon.png</file>
+    </qresource>
+</RCC>
