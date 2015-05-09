@@ -43,4 +43,5 @@ if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)
     mainForm = MainForm()
     mainForm.show()
+    mainForm.showFullScreen()
     sys.exit(app.exec_())

@@ -73,18 +73,20 @@ MainWindow::MainWindow(const QUrl& url)
     locationEdit->setSizePolicy(QSizePolicy::Expanding, locationEdit->sizePolicy().verticalPolicy());
     connect(locationEdit, SIGNAL(returnPressed()), SLOT(changeLocation()));
 
+    QAction *closeWindowAction = new QAction(tr("关闭窗口"),this);
     QToolBar *toolBar = addToolBar(tr("导航"));
     toolBar->addAction(view->pageAction(QWebPage::Back));
     toolBar->addAction(view->pageAction(QWebPage::Forward));
     toolBar->addAction(view->pageAction(QWebPage::Reload));
     toolBar->addAction(view->pageAction(QWebPage::Stop));
+    toolBar->addAction(closeWindowAction);
     toolBar->addWidget(locationEdit);
 //! [2]
     QMenu *fileMenu = menuBar()->addMenu(tr("文件(&F)"));
     QAction *newWindowAction = new QAction(tr("新建窗口"),this);
     connect(newWindowAction, SIGNAL(triggered()),SLOT(newWindow()));
     fileMenu->addAction(newWindowAction);
-    QAction *closeWindowAction = new QAction(tr("关闭窗口"),this);
+
     connect(closeWindowAction, SIGNAL(triggered()),SLOT(closeWindow()));
     fileMenu->addAction(closeWindowAction);
 
@@ -250,7 +252,7 @@ void MainWindow::removeEmbeddedElements()
 
 void MainWindow::aboutLooplorer()
 {
-    QMessageBox::information(this,tr("About Looplorer"),tr("Looplorer 1.9.2"));
+    QMessageBox::information(this,tr("About Looplorer"),tr("Looplorer 1.9.3"));
 }
 
 void MainWindow::clickLink()
