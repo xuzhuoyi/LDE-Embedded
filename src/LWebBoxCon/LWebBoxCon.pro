@@ -25,3 +25,9 @@ FORMS    += widget.ui
 
 RESOURCES += \
     lwbc.qrc
+
+DESTDIR += ../../usr/bin
+
+# install
+target.path = /usr/bin
+INSTALLS += target
