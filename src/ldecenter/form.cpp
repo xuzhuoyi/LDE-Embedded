@@ -33,17 +33,20 @@ Form::Form(QWidget *parent) :
     ui->label_24->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_25->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_26->setAttribute(Qt::WA_TranslucentBackground, true);
-    ui->label_27->setAttribute(Qt::WA_TranslucentBackground, true);
+
     ui->label_28->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_29->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_30->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_31->setAttribute(Qt::WA_TranslucentBackground, true);
+
     ui->frame_2->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_3->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_4->setAttribute(Qt::WA_TranslucentBackground, true);
-    ui->frame_2->setVisible(true);
+    ui->frame_2->setVisible(false);
     ui->frame_3->setVisible(false);
-    ui->frame_4->setVisible(false);
+    ui->frame_4->setVisible(true);
+    ui->label_4->setVisible(false);
+    ui->label_13->setVisible(false);
 }
 
 Form::~Form()
@@ -129,4 +132,12 @@ void Form::on_label_25_clicked()
 {
     QProcess *mainProcess = new QProcess;
     mainProcess->start("./datacenter",NULL);
+}
+
+void Form::on_label_26_clicked()
+{
+    QProcess *mainProcess = new QProcess;
+    QStringList runArgsList;
+    runArgsList << "Main.py";
+    mainProcess->start("python2", runArgsList);
 }

@@ -16,5 +16,7 @@
         <file>images/Actions-help-about-icon.png</file>
         <file>images/Actions-system-shutdown-icon.png</file>
         <file>images/Actions-view-media-equalizer-icon.png</file>
+        <file>images/Actions-contact-new-icon.png</file>
+        <file>images/Apps-internet-web-browser-icon.png</file>
     </qresource>
 </RCC>
