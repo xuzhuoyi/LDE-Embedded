@@ -48,6 +48,8 @@ private slots:
 
     void on_label_10_clicked();
 
+    void on_label_27_clicked();
+
 private:
     Ui::Form *ui;
 };

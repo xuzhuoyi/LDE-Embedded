@@ -33,12 +33,12 @@ Form::Form(QWidget *parent) :
     ui->label_24->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_25->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_26->setAttribute(Qt::WA_TranslucentBackground, true);
-
+    ui->label_27->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_28->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_29->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_30->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->label_31->setAttribute(Qt::WA_TranslucentBackground, true);
-
+    ui->label_32->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_2->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_3->setAttribute(Qt::WA_TranslucentBackground, true);
     ui->frame_4->setAttribute(Qt::WA_TranslucentBackground, true);
@@ -152,4 +152,10 @@ void Form::on_label_10_clicked()
 {
     QProcess *mainProcess = new QProcess;
     mainProcess->start("./looget",NULL);
+}
+
+void Form::on_label_27_clicked()
+{
+    QProcess *mainProcess = new QProcess;
+    mainProcess->start("./homestatus",NULL);
 }

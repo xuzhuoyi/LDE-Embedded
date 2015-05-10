@@ -18,5 +18,6 @@
         <file>images/Actions-view-media-equalizer-icon.png</file>
         <file>images/Actions-contact-new-icon.png</file>
         <file>images/Apps-internet-web-browser-icon.png</file>
+        <file>images/Actions-go-home-icon.png</file>
     </qresource>
 </RCC>
