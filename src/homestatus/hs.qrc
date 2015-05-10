@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/3.jpg</file>
+        <file>images/Actions-edit-delete-icon.png</file>
+        <file>images/Actions-dialog-ok-apply-icon.png</file>
+    </qresource>
+</RCC>
