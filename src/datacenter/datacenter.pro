@@ -20,14 +20,17 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
     form.cpp \
-    core/tmcore.cpp
+    core/tmcore.cpp \
+    preference.cpp
 
 HEADERS  += \
     form.h \
-    core/tmcore.h
+    core/tmcore.h \
+    preference.h
 
 FORMS    += \
-    form.ui
+    form.ui \
+    preference.ui
 
 RESOURCES += \
     dc.qrc

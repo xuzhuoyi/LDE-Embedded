@@ -93,3 +93,9 @@ void Form::timerEvent( QTimerEvent * ) {
     ui->qwtPlot->replot();
 
 }
+
+void Form::on_pushButton_6_clicked()
+{
+    reference.show();
+    reference.showFullScreen();
+}

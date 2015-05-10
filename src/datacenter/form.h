@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QTimer>
 #include <qwt_plot_curve.h>
+#include "preference.h"
 
 namespace Ui {
 class Form;
@@ -22,8 +23,11 @@ public slots:
 private slots:
     void on_pushButton_3_clicked();
 
+    void on_pushButton_6_clicked();
+
 private:
     Ui::Form *ui;
+    Preference reference;
     QTimer *timer;
     QwtPlotCurve curve;
     QVector<double> xs;
