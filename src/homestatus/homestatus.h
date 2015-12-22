@@ -15,6 +15,9 @@ public:
     explicit HomeStatus(QWidget *parent = 0);
     ~HomeStatus();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::HomeStatus *ui;
 };
