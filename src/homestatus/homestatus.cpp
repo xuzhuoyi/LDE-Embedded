@@ -34,3 +34,8 @@ HomeStatus::~HomeStatus()
 {
     delete ui;
 }
+
+void HomeStatus::on_pushButton_clicked()
+{
+    qApp->exit();
+}

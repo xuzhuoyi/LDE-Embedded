@@ -24,3 +24,7 @@ FORMS    += homestatus.ui
 
 RESOURCES += \
     hs.qrc
+
+# install
+target.path = /usr/bin
+INSTALLS += target
