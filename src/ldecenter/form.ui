@@ -213,6 +213,11 @@
        <height>17</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>实用工具</string>
      </property>
@@ -226,6 +231,11 @@
        <height>16</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>计算器</string>
      </property>
@@ -238,6 +248,11 @@
        <width>71</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>文件管理器</string>
@@ -254,6 +269,11 @@
        <width>71</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>文本编辑器</string>
@@ -366,6 +386,11 @@
        <height>17</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>网络通信</string>
      </property>
@@ -379,6 +404,11 @@
        <height>16</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>下载器</string>
      </property>
@@ -391,6 +421,11 @@
        <width>71</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>网页浏览器</string>
@@ -407,6 +442,11 @@
        <width>75</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>Web端状态</string>
@@ -557,6 +597,11 @@
        <height>17</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>传感数据</string>
      </property>
@@ -570,6 +615,11 @@
        <height>16</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>传感器</string>
      </property>
@@ -582,6 +632,11 @@
        <width>71</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>数据中心</string>
@@ -598,6 +653,11 @@
        <width>71</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>人脸识别</string>
@@ -633,6 +693,11 @@
        <width>71</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
      </property>
      <property name="text">
       <string>室内监测</string>
