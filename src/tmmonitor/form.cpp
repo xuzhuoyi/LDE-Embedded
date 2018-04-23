@@ -34,7 +34,7 @@ void Form::getInfo()
     {
         TmCore tmCore;
         tmCore.setHumi();
-        QString h QString::number((int)tmCore.humi().toDouble());
+        QString h = QString::number((int)tmCore.humi().toDouble());
         return h;
     }());
 }
